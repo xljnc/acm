@@ -14,7 +14,7 @@ public class Problem1089 {
         while (sc.hasNext()) {
             int a = sc.nextInt();
             int b = sc.nextInt();
-            System.out.println(a+b);
+            System.out.println(a + b);
 //            BigDecimal a = new BigDecimal(sc.next());
 //            BigDecimal b = new BigDecimal(sc.next());
 //            System.out.println(a.add(b));
