@@ -11,10 +11,9 @@ import java.util.Scanner;
 public class Problem1021 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(new BufferedInputStream(System.in));
-        String[] results = {"no","no","yes","no","no","no","yes","no"};
-        while(sc.hasNext()){
+        while (sc.hasNext()) {
             int num = sc.nextInt();
-            System.out.println(results[num%8]);
+            System.out.println(num % 4 == 2?"yes":"no");
         }
     }
 }
