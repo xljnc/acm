@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * @author WuTian
  * @date 2018-10-16 19:07
- * @description 最小公倍数
+ * @description 最小公倍数.
  */
 public class Problem1108 {
     public static void main(String[] args) {
